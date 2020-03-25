@@ -5,8 +5,6 @@ public abstract class DobradorImpl implements Dobrador {
 
     protected float dano;
 
-    protected Elemento elemento;
-
     protected float defesa;
 
     protected float vida;
@@ -43,27 +41,6 @@ public abstract class DobradorImpl implements Dobrador {
     public String getNome() {
         return nome;
     }
-
-    @Override
-    public float getDano() {
-        return dano;
-    }
-
-    @Override
-    public Elemento getElemento() {
-        return elemento;
-    }
-
-    @Override
-    public float getDefesa() {
-        return defesa;
-    }
-
-    @Override
-    public float getVida() {
-        return vida;
-    }
-
 
     @Override
     public float getChanceStun() {

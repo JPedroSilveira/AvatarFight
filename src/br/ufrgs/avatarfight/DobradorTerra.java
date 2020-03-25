@@ -1,6 +1,6 @@
 package br.ufrgs.avatarfight;
 
-public class DobradorTerra extends DobradorImpl {
+public class DobradorTerra extends DobradorImpl implements Dobrador {
 
     public DobradorTerra(String nome, Investimento investimento) {
         super(nome);
@@ -8,7 +8,6 @@ public class DobradorTerra extends DobradorImpl {
         this.dano = 40;
         this.defesa = 25;
         this.chanceStun = 40;
-        this.elemento = Elemento.TERRA;
 
         if (investimento == Investimento.VIDA) {
             this.vida += 50;
@@ -19,7 +18,6 @@ public class DobradorTerra extends DobradorImpl {
         } else if (investimento == Investimento.STUN) {
             this.chanceStun += 25;
         }
-
     }
 
     @Override
@@ -38,16 +36,27 @@ public class DobradorTerra extends DobradorImpl {
     }
 
     @Override
-    public float calcDefesa(Elemento elemento) {
-        if (elemento == Elemento.AR) {
-            return this.defesa * 0.5f;
-        } else if (elemento == Elemento.AGUA) {
-            return this.defesa * 3;
-        } else if (elemento == Elemento.FOGO) {
-            return this.defesa * 2;
-        } else { //if (elemento == Elemento.TERRA)
-            return this.defesa;
-        }
+    public float calcDefesa(Dobrador dobrador) {
+        return this.defesa * dobrador.getMultiplicadorDefesaTerra();
     }
 
+    @Override
+    public float getMultiplicadorDefesaFogo() {
+        return 1;
+    }
+
+    @Override
+    public float getMultiplicadorDefesaAr() {
+        return 2;
+    }
+
+    @Override
+    public float getMultiplicadorDefesaAgua() {
+        return 3;
+    }
+
+    @Override
+    public float getMultiplicadorDefesaTerra() {
+        return 1;
+    }
 }

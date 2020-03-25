@@ -6,12 +6,6 @@ package br.ufrgs.avatarfight;
 interface Dobrador {
 
     /**
-     * Retorna o elemento do dobrador
-     * @return Elemento do dobrador
-     */
-    Elemento getElemento();
-
-    /**
      * Subtrai o valor de entrada da vida do dobrador
      * @param dano Valor a ser subtraido
      */
@@ -22,24 +16,6 @@ interface Dobrador {
      * @return Nome do dobrador
      */
     String getNome();
-
-    /**
-     * Pega o dano do dobrador
-     * @return Dano do dobrador
-     */
-    float getDano();
-
-    /**
-     * Pega a defesa do dobrador
-     * @return Retorna o valor da defesa em porcentagem
-     */
-    float getDefesa();
-
-    /**
-     * Pega a vida do dobrador
-     * @return Retorna a quantidade de vida restante do dobrador
-     */
-    float getVida();
 
     /**
      * Retorna se o dobrador está em estado de stun
@@ -85,9 +61,33 @@ interface Dobrador {
 
     /**
      * Calcula a porcentagem de defesa contra um determinado elemento
-     * @param elemento Elemento para calcular a defesa
+     * @param dobrador Dobrador que está atacando
      * @return Porcentagem de defesa contra o elemento de entrada
      */
-    float calcDefesa(Elemento elemento);
+    float calcDefesa(Dobrador dobrador);
+
+    /**
+     * Pega o multiplicador do dano para o elemento fogo que a classe sofrerá
+     * @return Retorna o valor float
+     */
+    float getMultiplicadorDefesaFogo();
+
+    /**
+     * Pega o multiplicador do dano para o elemento ar que a classe sofrerá
+     * @return Retorna o valor float
+     */
+    float getMultiplicadorDefesaAr();
+
+    /**
+     * Pega o multiplicador do dano para o elemento água que a classe sofrerá
+     * @return Retorna o valor float
+     */
+    float getMultiplicadorDefesaAgua();
+
+    /**
+     * Pega o multiplicador do dano para o elemento terra que a classe sofrerá
+     * @return Retorna o valor float
+     */
+    float getMultiplicadorDefesaTerra();
 
 }

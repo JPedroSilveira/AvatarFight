@@ -41,7 +41,7 @@ public class FightImpl implements Fight {
                 danoParcial = dobradorAtacando.calcAtaqueMaximo();
             }
 
-            float porcentagemDefesa = dobradorDefendendo.calcDefesa(dobradorAtacando.getElemento());
+            float porcentagemDefesa = dobradorDefendendo.calcDefesa(dobradorAtacando);
 
             float danoBruto = danoParcial * ( porcentagemDefesa / 100 );
 
