@@ -1,7 +1,6 @@
 package br.ufrgs.avatarfight;
 
 public interface Fight {
-
     /**
      * Realiza um ataque de um dobrador no outro
      * @param tipo Tipo de ataque

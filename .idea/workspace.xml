@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f8455ff-655b-4532-a0b9-a4229577511c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/Pessoa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvatarFight.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AvatarFight.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/Dobrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/Dobrador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/DobradorAgua.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/DobradorAgua.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/DobradorAr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/DobradorAr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/DobradorFogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/DobradorFogo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/DobradorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/DobradorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/DobradorTerra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/DobradorTerra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/Fight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/Fight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/FightImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/FightImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +62,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585157195893</updated>
-      <workItem from="1585157199103" duration="1611000" />
+      <workItem from="1585157199103" duration="2816000" />
+      <workItem from="1585181373411" duration="735000" />
+      <workItem from="1585356399908" duration="3012000" />
     </task>
     <servers />
   </component>
@@ -82,7 +76,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

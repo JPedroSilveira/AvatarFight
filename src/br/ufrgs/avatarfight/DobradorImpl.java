@@ -1,6 +1,7 @@
 package br.ufrgs.avatarfight;
 
 public abstract class DobradorImpl implements Dobrador {
+
     protected String nome;
 
     protected float dano;
@@ -23,9 +24,7 @@ public abstract class DobradorImpl implements Dobrador {
     }
 
     @Override
-    public boolean estaVivo() {
-        return this.vida > 0;
-    }
+    public boolean estaMorto() { return this.vida <= 0; }
 
     @Override
     public boolean getEstaEmStun() {
@@ -38,9 +37,7 @@ public abstract class DobradorImpl implements Dobrador {
     }
 
     @Override
-    public String getNome() {
-        return nome;
-    }
+    public String getNome() { return nome; }
 
     @Override
     public float getChanceStun() {

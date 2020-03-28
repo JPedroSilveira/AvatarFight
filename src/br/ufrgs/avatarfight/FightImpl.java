@@ -1,13 +1,14 @@
 package br.ufrgs.avatarfight;
+
 import java.util.Random;
 
 public class FightImpl implements Fight {
 
-    protected Dobrador dobradorUm;
+    private Dobrador dobradorUm;
 
-    protected Dobrador dobradorDois;
+    private Dobrador dobradorDois;
 
-    protected int turno;
+    private int turno;
 
     public FightImpl(Dobrador dobradorUm, Dobrador dobradorDois) {
         this.dobradorUm = dobradorUm;
@@ -19,8 +20,6 @@ public class FightImpl implements Fight {
     public String dobradorAtaca(TipoAtaque tipo) {
         Dobrador dobradorAtacando;
         Dobrador dobradorDefendendo;
-        boolean ataqueComStun = false;
-        float danoParcial = 0.0f;
 
         if (turno % 2 == 0) {
             dobradorAtacando = dobradorUm;
@@ -33,6 +32,9 @@ public class FightImpl implements Fight {
         this.turno += 1;
 
         if (!dobradorAtacando.getEstaEmStun()) {
+            boolean ataqueComStun = false;
+
+            float danoParcial;
             if (tipo == TipoAtaque.SIMPLES) {
                 danoParcial = dobradorAtacando.calcAtaqueSimples();
             } else if (tipo == TipoAtaque.MEDIO) {
@@ -43,7 +45,7 @@ public class FightImpl implements Fight {
 
             float porcentagemDefesa = dobradorDefendendo.calcDefesa(dobradorAtacando);
 
-            float danoBruto = danoParcial * ( porcentagemDefesa / 100 );
+            float danoBruto = danoParcial * (porcentagemDefesa / 100);
 
             Random rand = new Random();
 
@@ -61,6 +63,8 @@ public class FightImpl implements Fight {
 
             if (ataqueComStun) {
                 mensagem += " e também foi atordoado!";
+            } else {
+                mensagem += ".";
             }
 
             return mensagem;
@@ -71,14 +75,14 @@ public class FightImpl implements Fight {
 
     @Override
     public boolean fimDeBatalha() {
-        return !this.dobradorUm.estaVivo() || !this.dobradorDois.estaVivo();
+        return this.dobradorUm.estaMorto() || this.dobradorDois.estaMorto();
     }
 
     @Override
     public String getVencedor() {
-        if (!this.dobradorUm.estaVivo()) {
+        if (this.dobradorUm.estaMorto()) {
             return this.dobradorDois.getNome() + " venceu!";
-        } else if (!this.dobradorDois.estaVivo()) {
+        } else if (this.dobradorDois.estaMorto()) {
             return this.dobradorUm.getNome() + " venceu!";
         }
 

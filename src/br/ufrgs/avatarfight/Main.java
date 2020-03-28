@@ -7,6 +7,7 @@ public class Main {
         Scanner keyboard = new Scanner(System.in);
         Dobrador[] dobradores = new Dobrador[2];
 
+        // Criação personagens
         for (int x = 0; x <= 1; x++) {
             System.out.println("Olá, bem vindo a luta!");
             System.out.println("Jogador "+(x + 1)+", digite o nome do seu dobrador: ");
@@ -86,7 +87,9 @@ public class Main {
                     tipoAtaque = TipoAtaque.SIMPLES;
             }
 
-            System.out.println(fight.dobradorAtaca(tipoAtaque));
+            String mensagemTurno = fight.dobradorAtaca(tipoAtaque);
+
+            System.out.println(mensagemTurno);
             System.out.println("--------------------------------------------------------");
         }
 
