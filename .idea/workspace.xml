@@ -1,16 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0f8455ff-655b-4532-a0b9-a4229577511c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/Dobrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/Dobrador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/DobradorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/DobradorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/Fight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/Fight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/DobradorAgua.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/DobradorAgua.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/DobradorAr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/DobradorAr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/DobradorFogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/DobradorFogo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/DobradorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/PessoaImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/DobradorTerra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/DobradorTerra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/Elemento.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/FightImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/FightImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufrgs/avatarfight/Pessoa.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,21 +50,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Zd7cSKciM2GB4wkecMO2sH4Yes" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
@@ -65,23 +87,49 @@
       <workItem from="1585157199103" duration="2816000" />
       <workItem from="1585181373411" duration="735000" />
       <workItem from="1585356399908" duration="3012000" />
+      <workItem from="1598269731977" duration="1696000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2363" y="225" width="1024" height="841" key="#Project_Structure" timestamp="1598269791898">
+      <screen x="1920" y="96" width="1920" height="1080" />
+    </state>
+    <state x="2363" y="225" width="1024" height="841" key="#Project_Structure/1920.96.1920.1080/0.120.1920.960@1920.96.1920.1080" timestamp="1598269791898" />
+    <state x="3080" y="100" width="598" height="1076" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598271403856">
+      <screen x="1920" y="96" width="1920" height="1080" />
+    </state>
+    <state x="3080" y="100" width="598" height="1076" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.96.1920.1080/0.120.1920.960@1920.96.1920.1080" timestamp="1598271403856" />
+    <state width="1878" height="288" key="GridCell.Tab.0.bottom" timestamp="1598270812844">
+      <screen x="1920" y="96" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="288" key="GridCell.Tab.0.bottom/1920.96.1920.1080/0.120.1920.960@1920.96.1920.1080" timestamp="1598270812844" />
+    <state width="1878" height="288" key="GridCell.Tab.0.center" timestamp="1598270812844">
+      <screen x="1920" y="96" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="288" key="GridCell.Tab.0.center/1920.96.1920.1080/0.120.1920.960@1920.96.1920.1080" timestamp="1598270812844" />
+    <state width="1878" height="288" key="GridCell.Tab.0.left" timestamp="1598270812844">
+      <screen x="1920" y="96" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="288" key="GridCell.Tab.0.left/1920.96.1920.1080/0.120.1920.960@1920.96.1920.1080" timestamp="1598270812844" />
+    <state width="1878" height="288" key="GridCell.Tab.0.right" timestamp="1598270812844">
+      <screen x="1920" y="96" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="288" key="GridCell.Tab.0.right/1920.96.1920.1080/0.120.1920.960@1920.96.1920.1080" timestamp="1598270812844" />
   </component>
 </project>

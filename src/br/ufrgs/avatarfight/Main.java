@@ -58,7 +58,7 @@ public class Main {
             }
         }
 
-        Fight fight = new FightImpl(dobradores[0], dobradores[1]);
+        Fight fight = new FightImpl(dobradores);
 
         while(!fight.fimDeBatalha()) {
             System.out.println("--------------------------------------------------------");

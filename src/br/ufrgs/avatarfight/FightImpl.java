@@ -10,9 +10,9 @@ public class FightImpl implements Fight {
 
     private int turno;
 
-    public FightImpl(Dobrador dobradorUm, Dobrador dobradorDois) {
-        this.dobradorUm = dobradorUm;
-        this.dobradorDois = dobradorDois;
+    public FightImpl(Dobrador[] dobradores) {
+        this.dobradorUm = dobradores[0];
+        this.dobradorDois = dobradores[1];
         this.turno = 0;
     }
 

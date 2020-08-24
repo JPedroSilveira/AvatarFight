@@ -1,6 +1,6 @@
 package br.ufrgs.avatarfight;
 
-public class DobradorTerra extends DobradorImpl implements Dobrador {
+public class DobradorTerra extends PessoaImpl implements Dobrador {
 
     public DobradorTerra(String nome, Investimento investimento) {
         super(nome);

@@ -1,6 +1,6 @@
 package br.ufrgs.avatarfight;
 
-public abstract class DobradorImpl implements Dobrador {
+public abstract class PessoaImpl implements Pessoa {
 
     protected String nome;
 
@@ -14,7 +14,7 @@ public abstract class DobradorImpl implements Dobrador {
 
     protected boolean estaEmStun;
 
-    public DobradorImpl(String nome) {
+    public PessoaImpl(String nome) {
         this.nome = nome;
     }
 

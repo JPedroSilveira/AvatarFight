@@ -6,36 +6,6 @@ package br.ufrgs.avatarfight;
 interface Dobrador extends Pessoa {
 
     /**
-     * Salva um novo valor para o estado de stun
-     * @param estaEmStun Novo estado de stun
-     */
-    void setEstaEmStun(boolean estaEmStun);
-
-    /**
-     * Retorna a chance de dar stun no ataque do dobrador
-     * @return Retorna a chance de stun
-     */
-    float getChanceStun();
-
-    /**
-     * Calcula o dano do ataque simples do dobrador
-     * @return Dano do ataque
-     */
-    float calcAtaqueSimples();
-
-    /**
-     * Calcula o dano do ataque médio do dobrador
-     * @return Dano do ataque médio
-     */
-    float calcAtaqueMedio();
-
-    /**
-     * Calcula o dano do ataque máximo do dobrador
-     * @return Dano do ataque máximo
-     */
-    float calcAtaqueMaximo();
-
-    /**
      * Pega o multiplicador do dano para o elemento fogo que a classe sofrerá
      * @return Retorna o valor float
      */
